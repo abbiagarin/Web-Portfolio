@@ -1,0 +1,153 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Courier Prime', monospace;;
+    background-color: rgb(248, 211, 211) ;
+}
+
+.navbar{
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    background: rgb(219, 204, 204) !important; 
+    padding: 10px ;
+    text-transform: uppercase;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:#fff;
+    padding-left: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(245, 61, 61);
+
+
+}
+img{
+    width:100%;
+    height:auto;
+}
+
+.heading{
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    top:40%;
+
+}
+
+.heading h3{
+    color: #fff;
+    font-size: 30px;
+    font-family: monospace;
+
+}
+
+.heading h1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 75px;
+    font-family: 'Redressed', cursive;
+    
+}
+
+.world{
+    color: #fff;
+    font-size: 27px;
+    font-family: monospace;
+    font-weight: lighter;
+
+}
+.btn{
+    border: 2px solid yellowgreen;
+    width: 40%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.btn :hover{
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.btn-send{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+  
+.footer .container-fluid{
+    text-align: center;
+    background-color: rgb(173, 163, 163);
+    color: #fff;
+    width:100%;
+    border-radius: 10px;
+    display:float;
+
+}
+
+.footer a{
+    text-decoration: none;
+    padding: 12px;
+    font-size: 30px;
+    color: rgb(218, 16, 49);
+    float:right;
+
+
+}
+
+.footer h5{
+    padding:15px;
+}
+
+.main .container{
+    background-color: rgb(248, 211, 211);
+}
+
+@media screen and (max-width: 600px){
+
+
+    .navbar{
+        letter-spacing: 2px;
+        padding: 6px;
+    }
+
+    .heading{
+        top:20%;
+    }
+
+    .heading h3{
+        font-size: 18px;
+
+    
+    }
+    
+    .heading h1{
+        font-size: 60px;
+    
+    }
+    
+    .world{
+        font-size: 15px;
+    
+    }
+
+}
